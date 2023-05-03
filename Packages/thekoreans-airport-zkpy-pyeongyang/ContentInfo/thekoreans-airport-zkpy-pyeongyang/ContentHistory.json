@@ -1,0 +1,10 @@
+{
+  "package-name": "thekoreans-airport-zkpy-pyeongyang",
+  "items": [
+    {
+      "type": "Airport",
+      "content": "ZKPY",
+      "revision": 1
+    }
+  ]
+}
