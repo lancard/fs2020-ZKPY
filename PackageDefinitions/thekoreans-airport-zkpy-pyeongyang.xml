@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>ZKPY - Pyeongyang int&apos;l airport</Title>
+		<Manufacturer/>
+		<Creator>Sungho Kim</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\thekoreans-airport-zkpy-pyeongyang\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\thekoreans-airport-zkpy-pyeongyang\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymateriallibs">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-zkpy-pyeongyang\materiallibs\</AssetDir>
+			<OutputDir>MaterialLibs\airport-zkpy-pyeongyang\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymodellib">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-zkpy-pyeongyang\modellib\</AssetDir>
+			<OutputDir>Scenery\airport-zkpy-pyeongyang\modellib\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-zkpy-pyeongyang\scenery\</AssetDir>
+			<OutputDir>Scenery\airport-zkpy-pyeongyang\scenery\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
